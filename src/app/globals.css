@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root {
+  /* Dark theme inspired by Cribble.dev */
+  --background: 220 20% 8%;
+  --foreground: 220 8% 95%;
+
+  --card: 220 20% 10%;
+  --card-foreground: 220 8% 95%;
+
+  --popover: 220 20% 10%;
+  --popover-foreground: 220 8% 95%;
+
+  --primary: 200 100% 60%;
+  --primary-foreground: 220 20% 8%;
+
+  --secondary: 220 15% 15%;
+  --secondary-foreground: 220 8% 95%;
+
+  --muted: 220 15% 15%;
+  --muted-foreground: 220 8% 65%;
+
+  --accent: 200 100% 60%;
+  --accent-foreground: 220 20% 8%;
+
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 210 40% 98%;
+
+  --border: 220 15% 20%;
+  --input: 220 15% 15%;
+  --ring: 200 100% 60%;
+
+  --radius: 0.5rem;
+
+  /* Custom design tokens */
+  --glow: 200 100% 60%;
+  --glow-subtle: 200 100% 80%;
+  --electric: 180 100% 50%;
+  --electric-glow: 180 100% 70%;
+  
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, hsl(200 100% 60%), hsl(180 100% 50%));
+  --gradient-subtle: linear-gradient(180deg, hsl(220 20% 8%), hsl(220 20% 12%));
+  --gradient-card: linear-gradient(145deg, hsl(220 20% 10%), hsl(220 15% 12%));
+  
+  /* Shadows and glows */
+  --shadow-glow: 0 0 40px hsl(var(--glow) / 0.3);
+  --shadow-subtle: 0 4px 20px hsl(220 20% 5% / 0.4);
+  --shadow-card: 0 8px 32px hsl(220 20% 5% / 0.5);
+  
+  /* Transitions */
+  --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-glow: box-shadow 0.3s ease, transform 0.2s ease;
+
+  --sidebar-background: 0 0% 98%;
+  --sidebar-foreground: 240 5.3% 26.1%;
+  --sidebar-primary: 240 5.9% 10%;
+  --sidebar-primary-foreground: 0 0% 98%;
+  --sidebar-accent: 240 4.8% 95.9%;
+  --sidebar-accent-foreground: 240 5.9% 10%;
+  --sidebar-border: 220 13% 91%;
+  --sidebar-ring: 217.2 91.2% 59.8%;
+}
+
+body {
+  background-color: hsl(220 20% 6%);
+  background-image: radial-gradient(circle, hsl(220 15% 20%) 1px, transparent 1px);
+  background-size: 24px 24px;
+  background-attachment: fixed;
+  min-height: 100vh;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.text-glow {
+  text-shadow: 0 0 20px hsl(var(--glow) / 0.5);
+}
+
+.glow-on-hover {
+  transition: var(--transition-glow);
+}
+
+.glow-on-hover:hover {
+  box-shadow: var(--shadow-glow);
+  transform: translateY(-2px);
+}
+
+.gradient-text {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+
+.bg-card {
+  background-color: #14181f;
+}
+.bg-gradient-primary {
+background: linear-gradient(135deg, hsl(200 100% 60%), hsl(180 100% 50%));
+}
+.text-primary-foreground {
+color: #101318;
+}
+.border-border {
+border-color: #2b303b;
+}
+.bg-electric {
+background-color: #00ffff;
+}
+.bg-electric-glow {
+background-color: #00ffff;
+box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+}
+.animate-glow-pulse {
+animation: glow-pulse 2s ease-in-out infinite alternate;
+}
+.text-muted-foreground {
+  color: #9fa3ad;
+}
+.text-primary {
+  color: #3bf;
+}
+.bg-gradient-card {
+  background: linear-gradient(145deg, hsl(220 20% 10%), hsl(220 15% 12%));
+}
+.text-electric {
+  color: #00ffff;
+}
+.bg-background {
+  background-color: #101318;
+}
+.text-background {
+  color: #101318;
+}
+.border-input {
+  border-color: #21242c;
+}
+.shadow-glow {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+.ring-1 {
+  border:1px solid hsl(200 100% 60% / 0.3);
+}
+@keyframes glow-pulse {
+0% {
+  box-shadow: 0 0 20px hsl(var(--glow) / 0.3);
+}
+100% {
+  box-shadow: 0 0 40px hsl(var(--glow) / 0.6);
+}
+}
+.animate-pulse {
+animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+@keyframes pulse {
+50% {
+  opacity: .5;
+  }
+}
