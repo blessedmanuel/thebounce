@@ -75,7 +75,7 @@ const Features = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Why choose <span className="gradient-text">TheUnbounce</span>?
+            Why choose <span className="gradient-text">VoidBounce</span>?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Built for developers, trusted by enterprises. Our email validation service 

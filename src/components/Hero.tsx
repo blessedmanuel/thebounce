@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle, Mail, Shield, Zap } from "lucide-react";
 
 const Hero = () => {
-  const telegramBotUrl = "https://t.me/theunbouncebot";
+  const telegramBotUrl = "https://t.me/VoidBouncebot";
 
   return (
     <section className="min-h-screen flex items-center justify-center px-4 py-20">

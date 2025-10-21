@@ -5,7 +5,7 @@ import { Check, Star } from "lucide-react";
 import React from "react";
 
 const Pricing = () => {
-  const telegramBotUrl = "https://t.me/theunbouncebot";
+  const telegramBotUrl = "https://t.me/VoidBouncebot";
 
   const plans = [
     {

@@ -19,7 +19,7 @@ const TermsOfService = () => {
 
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold mb-4">Terms of Service</h1>
+          <h1 className="text-4xl font-bold mb-4">Terms & Conditions</h1>
           <p className="text-muted-foreground">
             Last updated: {new Date().toLocaleDateString()}
           </p>
@@ -29,88 +29,128 @@ const TermsOfService = () => {
         <div className="prose prose-invert max-w-none space-y-8">
           <section>
             <h2 className="text-2xl font-semibold mb-4 text-foreground">
-              1. Acceptance of Terms
+              1. Ownership
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              By accessing and using our email validation service, you accept and agree to be bound by the terms
-              and provision of this agreement. Our service comes with a money-back guarantee &mdash; if you&apos;re not
-              satisfied, we&apos;ll refund your payment within 30 days.
+              Fitsii LLC owns and operates the Voidbounce service and the Voidmail Manager product. These Terms & Conditions ("Terms") govern your access to and use of Voidbounce and Voidmail Manager (together, the "Service").
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4 text-foreground">
-              2. Use License
+              2. Purpose of Voidmail Manager
             </h2>
-            <p className="text-muted-foreground leading-relaxed mb-4">
-              Permission is granted to use our email validation service for commercial and personal use with the following restrictions:
+            <p className="text-muted-foreground leading-relaxed">
+              Voidmail Manager streamlines email hygiene and collaboration for corporate users, developers, and individuals. The Service automates inbox organization, rules/filters, selective forwarding, templated outreach, and attachment/document sharing that the user explicitly chooses. Use of the Service is intended to reduce manual effort, errors, and time-to-response.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4 text-foreground">
+              3. Acceptance of Terms
+            </h2>
+            <p className="text-muted-foreground leading-relaxed">
+              By accessing or using the Service you agree to be bound by these Terms. If you do not agree, do not use the Service.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4 text-foreground">
+              4. Google Scopes & How They Are Used
+            </h2>
+            <p className="text-muted-foreground leading-relaxed mb-2">
+              Where you elect to connect your Google account, Voidmail Manager will request only the permissions it needs to perform the actions you authorize. Requested scopes and their use:
             </p>
             <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4">
-              <li>You may not use the service for spam or malicious activities</li>
-              <li>You may not attempt to reverse engineer our validation algorithms</li>
-              <li>You may not exceed your plan&apos;s rate limits or usage quotas</li>
-              <li>You may not share your API credentials with unauthorized parties</li>
+              <li>
+                <strong>gmail.settings.basic / gmail.settings.sharing</strong> — Create or update filters and forwarding settings at your request (for example: labeling, archiving, forwarding to a designated address).
+              </li>
+              <li>
+                <strong>gmail.modify (or gmail.readonly where possible)</strong> — Read message metadata and only the specific messages required to apply or test a rule; add/remove labels; move messages. Read-only access is requested for previews; modify is requested only after you confirm changes.
+              </li>
+              <li>
+                <strong>gmail.send</strong> — Send replies or templated follow-ups as you (never as a third party) and only to recipients you specify.
+              </li>
+            </ul>
+            <p className="text-muted-foreground leading-relaxed">
+              You may revoke these permissions at any time through your Google account settings; revocation may limit or disable parts of the Service.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4 text-foreground">
+              5. User Data, Storage, and Privacy
+            </h2>
+            <p className="text-muted-foreground leading-relaxed">
+              Email addresses and message metadata processed for validation, filtering, or forwarding are handled in accordance with our Privacy Policy. We process only the data necessary to provide the features you request. We do not sell your email data. Where applicable, data retention and processing follow your explicit instructions and consent.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4 text-foreground">
+              6. Use Restrictions
+            </h2>
+            <p className="text-muted-foreground leading-relaxed mb-4">
+              You agree not to use the Service for unlawful, abusive, or spam activities. Additional restrictions:
+            </p>
+            <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4">
+              <li>Do not attempt to reverse engineer the Service or its algorithms.</li>
+              <li>Do not exceed rate limits or usage quotas applicable to your plan.</li>
+              <li>Do not share API credentials or account access with unauthorized parties.</li>
             </ul>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4 text-foreground">
-              3. Service Availability
+              7. Payments, Subscriptions & Refunds
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              We strive to maintain 99.9% uptime for our service. However, we cannot guarantee uninterrupted service
-              due to maintenance, updates, or unforeseen circumstances. We provide SLA guarantees as outlined in your plan.
+              Paid features, subscriptions, and billing are governed by the terms presented at purchase. We offer a 30-day money-back guarantee where stated; refund eligibility is subject to our billing terms and fraud prevention policies.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4 text-foreground">
-              4. Payment and Refunds
+              8. Termination & Suspension
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              All payments are processed securely through our payment partners. We offer a 30-day money-back guarantee
-              for all plans. If you&apos;re not completely satisfied with our service, contact us for a full refund within
-              30 days of purchase.
+              Fitsii LLC may suspend or terminate accounts that violate these Terms or engage in abusive activity. Users may cancel subscriptions per the account settings; termination does not automatically delete user data unless requested in accordance with our Privacy Policy.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4 text-foreground">
-              5. Data Usage and Privacy
+              9. Limitation of Liability
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              Email addresses submitted for validation are processed according to our Privacy Policy. We do not store
-              or use your email data for any purpose other than validation and service improvement.
+              The Service is provided "as is." To the maximum extent permitted by law, Fitsii LLC and its affiliates are not liable for incidental, consequential, or special damages arising from use of the Service.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4 text-foreground">
-              6. Account Termination
+              10. Changes to Terms
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              We reserve the right to terminate accounts that violate our terms of service or engage in abusive behavior.
-              Users may cancel their subscription at any time through their account dashboard.
+              We may modify these Terms from time to time. Material changes will be communicated by posting an updated date and, where appropriate, notifications within the Service. Continued use after changes constitutes acceptance.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4 text-foreground">
-              7. Limitation of Liability
+              11. Governing Law
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              Our service is provided &quot;as is&quot; without warranties of any kind. We are not liable for any damages
-              arising from the use or inability to use our service, except as required by applicable law.
+              These Terms are governed by the laws applicable to Fitsii LLC, without regard to conflict-of-law provisions.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-4 text-foreground">
-              8. Contact Information
+              12. Contact & Support
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              For questions about these Terms of Service, please contact us through our Telegram bot or
-              email us at legal@emailvalidator.com.
+              For questions about these Terms, support, or data requests contact us at support@fitsii.com or admin@voidbounce.com.
             </p>
           </section>
         </div>

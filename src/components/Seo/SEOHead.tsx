@@ -11,8 +11,8 @@ interface SEOHeadProps {
 }
 
 export const SEOHead = ({
-  title = "TheUnbounce – Email Verification Tool",
-  description = "TheUnbounce helps you validate and verify email addresses instantly, reduce bounces, and improve email deliverability for marketers, businesses, and developers.",
+  title = "VoidBounce – Email Verification Tool",
+  description = "VoidBounce helps you validate and verify email addresses instantly, reduce bounces, and improve email deliverability for marketers, businesses, and developers.",
   keywords = "email verification, email validator, email checker, verify email address, email list cleaning, reduce bounces, email deliverability",
   image = "https://theunbounce.com/opengraph-image.png",
   url = "https://theunbounce.com",

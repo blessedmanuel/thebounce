@@ -9,8 +9,8 @@ import { Metadata } from 'next';
 import { ToastContainer } from "react-toastify";
 
 export const metadata: Metadata = {
-  title: 'TheUnbounce',
-  description: 'TheUnbounce helps you validate and verify email addresses instantly, ensuring better deliverability, fewer bounces, and improved sender reputation.',
+  title: 'VoidBounce',
+  description: 'VoidBounce helps you validate and verify email addresses instantly, ensuring better deliverability, fewer bounces, and improved sender reputation.',
   icons: {
     icon: '/favicon.ico',
   },

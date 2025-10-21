@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Mail, MessageCircle, Github, Twitter } from "lucide-react";
 
 const Footer = () => {
-  const telegramBotUrl = "https://t.me/theunbouncebot";
+  const telegramBotUrl = "https://t.me/VoidBouncebot";
 
   return (
     <footer className="bg-card border-t border-border py-16">
@@ -14,7 +14,7 @@ const Footer = () => {
               <div className="p-2 bg-gradient-primary rounded-lg">
                 <Mail className="w-5 h-5 text-primary-foreground" />
               </div>
-              <span className="text-xl font-bold">TheUnbounce</span>
+              <span className="text-xl font-bold">VoidBounce</span>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md">
               Professional email validation service for developers and businesses. 
@@ -63,8 +63,8 @@ const Footer = () => {
                   Contact Support
                 </Button>
               </li>
-              <li><a href="/privacy" className="text-muted-foreground hover:text-primary transition-colors">Privacy Policy</a></li>
-              <li><a href="/terms" className="text-muted-foreground hover:text-primary transition-colors">Terms of Service</a></li>
+              <li><a href="/privacyPolicy" className="text-muted-foreground hover:text-primary transition-colors">Privacy Policy</a></li>
+              <li><a href="/termsConditions" className="text-muted-foreground hover:text-primary transition-colors">Terms of Service</a></li>
               <li><a href="/refundPolicy" className="text-muted-foreground hover:text-primary transition-colors">Refund Policy</a></li>
             </ul>
           </div>
@@ -73,7 +73,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-border pt-8 mt-8 flex flex-col md:flex-row items-center justify-between">
           <p className="text-muted-foreground text-sm">
-            © 2024 TheUnbounce. All rights reserved.
+            © 2024 VoidBounce. All rights reserved.
           </p>
           
           <div className="flex items-center gap-4 mt-4 md:mt-0">

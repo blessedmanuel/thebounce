@@ -9,7 +9,7 @@ import { useRouter } from "next/navigation";
 const Header = () => {
   const { isAuthenticated, logout } = useAuth();
   const router = useRouter();
-  const telegramBotUrl = "https://t.me/theunbouncebot";
+  const telegramBotUrl = "https://t.me/VoidBouncebot";
 
   const handleLogout = () => {
     logout();
@@ -25,8 +25,8 @@ const Header = () => {
             <div className="p-2 bg-gradient-primary rounded-lg">
               <Mail className="w-5 h-5 text-primary-foreground" />
             </div>
-            <Link href="/" className="text-xl font-bold hover:underline">
-              TheUnbounce
+            <Link href="/" className="text-xl font-bold">
+              VoidBounce
             </Link>
           </div>
 
@@ -40,6 +40,9 @@ const Header = () => {
             </a>
             <a href="/validate" className="text-sm hover:text-primary transition-colors">
               Validate
+            </a>
+            <a href="/void-manager" className="text-sm hover:text-primary transition-colors">
+              Void Mail Manager
             </a>
             <a href="/apiDocs" className="text-sm hover:text-primary transition-colors">
               API Docs
