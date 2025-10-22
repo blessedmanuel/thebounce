@@ -63,8 +63,8 @@ const Footer = () => {
                   Contact Support
                 </Button>
               </li>
-              <li><a href="/privacyPolicy" className="text-muted-foreground hover:text-primary transition-colors">Privacy Policy</a></li>
-              <li><a href="/termsConditions" className="text-muted-foreground hover:text-primary transition-colors">Terms of Service</a></li>
+              <li><a href="/privacy" className="text-muted-foreground hover:text-primary transition-colors">Privacy Policy</a></li>
+              <li><a href="/terms" className="text-muted-foreground hover:text-primary transition-colors">Terms of Service</a></li>
               <li><a href="/refundPolicy" className="text-muted-foreground hover:text-primary transition-colors">Refund Policy</a></li>
             </ul>
           </div>

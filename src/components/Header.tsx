@@ -41,7 +41,7 @@ const Header = () => {
             <a href="/validate" className="text-sm hover:text-primary transition-colors">
               Validate
             </a>
-            <a href="/void-manager" className="text-sm hover:text-primary transition-colors">
+            <a href="/void-mail-manager" className="text-sm hover:text-primary transition-colors">
               Void Mail Manager
             </a>
             <a href="/apiDocs" className="text-sm hover:text-primary transition-colors">
