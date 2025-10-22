@@ -32,7 +32,7 @@ const TermsOfService = () => {
               1. Ownership
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              Fitsii LLC owns and operates the Voidbounce service and the Voidmail Manager product. These Terms & Conditions ("Terms") govern your access to and use of Voidbounce and Voidmail Manager (together, the "Service").
+              Fitsii LLC owns and operates the Voidbounce service and the Voidmail Manager product. These Terms & Conditions (&quot;Terms&quot;) govern your access to and use of Voidbounce and Voidmail Manager (together, the &quot;Service&quot;).
             </p>
           </section>
 
@@ -123,7 +123,7 @@ const TermsOfService = () => {
               9. Limitation of Liability
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              The Service is provided "as is." To the maximum extent permitted by law, Fitsii LLC and its affiliates are not liable for incidental, consequential, or special damages arising from use of the Service.
+              The Service is provided &quot;as is.&quot; To the maximum extent permitted by law, Fitsii LLC and its affiliates are not liable for incidental, consequential, or special damages arising from use of the Service.
             </p>
           </section>
 

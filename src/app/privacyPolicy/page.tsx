@@ -55,7 +55,7 @@ const PrivacyPolicy = () => {
 
           <section>
             <h2 className="text-2xl font-semibold mb-4 text-foreground">
-              2. Requested Google Scopes & How They're Used
+              2. Requested Google Scopes & How They&apos;re Used
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
               When you connect a Google account to Voidmail Manager we request only the scopes required to provide the features you
