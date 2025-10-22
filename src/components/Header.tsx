@@ -25,7 +25,7 @@ const Header = () => {
             <div className="p-2 bg-gradient-primary rounded-lg">
               <Mail className="w-5 h-5 text-primary-foreground" />
             </div>
-            <Link href="/" className="text-xl font-bold">
+            <Link href="/" className="text-sm md:text-xl font-bold">
               VoidBounce
             </Link>
           </div>
