@@ -109,7 +109,7 @@ const ProductShowcase = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6 stagger-1 fade-in-up.animate">
             Empower Your <span className="gradient-text">Business</span> with Email Solutions
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed stagger-2 fade-in-up.animate">
+          <p className="text-md lg:text-lg xl:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed stagger-2 fade-in-up.animate">
             From validation APIs to unified mail management, explore our comprehensive email suite
             designed to optimize communication, reduce risks, and streamline operations.
           </p>
@@ -145,7 +145,7 @@ const ProductShowcase = () => {
                     {product.title}
                   </h3>
                   <p className="text-electric font-medium mb-3">{product.subtitle}</p>
-                  <p className="text-muted-foreground leading-relaxed">
+                  <p className="text-sm md:text-md text-muted-foreground leading-relaxed">
                     {product.description}
                   </p>
                 </div>
@@ -159,7 +159,7 @@ const ProductShowcase = () => {
                         className="flex items-center gap-3 p-3 bg-card/50 rounded-lg border border-border/50 hover:border-border transition-colors group/feature"
                       >
                         <feature.icon className="w-4 h-4 text-primary group-hover/feature:text-electric transition-colors" />
-                        <span className="text-sm font-medium">{feature.text}</span>
+                        <span className="text-xs sm:text-sm font-medium">{feature.text}</span>
                       </div>
                     ))}
                   </div>
