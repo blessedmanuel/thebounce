@@ -88,7 +88,7 @@ const Pricing = () => {
     <section className="py-20 px-4" id="pricing">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 animate-float">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Simple, <span className="gradient-text">transparent</span> pricing
           </h2>

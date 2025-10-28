@@ -14,12 +14,12 @@ const Hero = () => {
         </div>
 
         {/* Main Headline */}
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+        <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight animate-float">
           Validate emails{" "}
           <span className="gradient-text">instantly</span>
         </h1>
         
-        <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
+        <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed animate-float">
           Reduce bounce rates by 95% with our real-time email verification service. 
           Clean your lists, improve deliverability, and protect your sender reputation.
         </p>

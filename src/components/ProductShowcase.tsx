@@ -95,14 +95,14 @@ const ProductShowcase = () => {
     <section className="py-20 px-4 relative overflow-hidden">
       {/* Background Animation */}
       <div className="absolute inset-0 opacity-30">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-gradient-to-r from-cyan-500/10 to-blue-500/10 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-gradient-to-r from-purple-500/10 to-cyan-400/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-gradient-to-r from-cyan-500 from-10% to-blue-500 to-10% rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-gradient-to-r from-purple-500 from-10% to-cyan-400 to-10% rounded-full blur-3xl animate-pulse delay-1000"></div>
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10">
         {/* Header */}
         <div ref={headerRef} className="text-center mb-16 fade-in-up animate-float">
-          <div className="inline-flex items-center gap-2 bg-card border border-border rounded-full px-4 py-2 mb-8 slide-in-top">
+          <div className="inline-flex items-center gap-2 bg-card border border-border rounded-full px-4 py-2 mb-8 slide-in-top animate-glow-pulse">
             <Sparkles className="w-4 h-4 text-electric animate-pulse" />
             <span className="text-sm text-muted-foreground">VoidBounce Ecosystem</span>
           </div>
