@@ -98,7 +98,21 @@ const PrivacyPolicy = () => {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4 text-foreground">4. Data Security</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-foreground">
+              4. Data Sharing, Transfer, and Disclosure
+            </h2>
+            <p className="text-muted-foreground leading-relaxed">
+              We do not sell, rent, trade, or otherwise share, transfer, or disclose your Google user data with any third parties
+              except as strictly necessary to provide the services you authorize. Your Google data is shared only with Google servers
+              through their official APIs when you connect your account, and solely for the specific purposes outlined in Section 2
+              (Requested Google Scopes & How They're Used). We do not share Google user data with other companies, advertising networks,
+              or other third parties for marketing, analytics, or any other use beyond service provision. You retain control over your
+              data at all times, and can revoke access through your Google account settings.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4 text-foreground">5. Data Security</h2>
             <p className="text-muted-foreground leading-relaxed">
               We implement industry-standard security measures to protect your data. All data is encrypted in transit and at rest.
               OAuth tokens and sensitive credentials are stored encrypted using secure key management. Access to production systems is
@@ -111,15 +125,15 @@ const PrivacyPolicy = () => {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4 text-foreground">5. Money-Back Guarantee</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-foreground">6. Money-Back Guarantee</h2>
             <p className="text-muted-foreground leading-relaxed">
-              We offer a 30-day money-back guarantee. If you&apos;re not satisfied with our service for any reason, contact us within
+              We offer a 30-day money-back guarantee. If you're not satisfied with our service for any reason, contact us within
               30 days of your purchase for a full refund.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4 text-foreground">6. Data Retention</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-foreground">7. Data Retention</h2>
             <p className="text-muted-foreground leading-relaxed">
               Validated email addresses are not permanently stored. We retain usage analytics, account information, and any data needed
               to provide the service for as long as your account is active or as required to comply with legal obligations. OAuth tokens
@@ -128,7 +142,7 @@ const PrivacyPolicy = () => {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4 text-foreground">7. Third-Party Services</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-foreground">8. Third-Party Services</h2>
             <p className="text-muted-foreground leading-relaxed">
               We use third-party services for Google APIs (when you connect an account), payment processing, and analytics. These services
               have their own privacy policies; we ensure they meet our data protection standards and limit the information we share to what
@@ -137,7 +151,7 @@ const PrivacyPolicy = () => {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4 text-foreground">8. Contact Us</h2>
+            <h2 className="text-2xl font-semibold mb-4 text-foreground">9. Contact Us</h2>
             <p className="text-muted-foreground leading-relaxed">
               If you have any questions about this Privacy Policy, or need help revoking access or deleting data, contact support email support@fitsii.com or admin@voidbounce.com.
             </p>
